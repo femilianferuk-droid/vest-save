@@ -12,7 +12,7 @@ from aiogram.client.default import DefaultBotProperties
 # --- Конфигурация ---
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 DB_URL = "postgresql://bothost_db_0f4e9694f89c:Xp9i3BN4-YQq_SyFVK0NxvImLPnP7BBF6gjNFDTW5VI@node1.pghost.ru:15756/bothost_db_0f4e9694f89c"
-WEB_APP_URL = "https://vest-save.versel.app" # Ссылка на твой Vercel
+WEB_APP_URL = "https://vest-save.vercel.app/" # Ссылка на твой Vercel
 API_PORT = 8080
 
 logging.basicConfig(level=logging.INFO)
